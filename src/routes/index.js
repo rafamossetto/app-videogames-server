@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { APIKEY } = process.env;
+const APIKEY = 'c542e67aec3a4340908f9de9e86038af';
 const { Router } = require('express');
 const router = Router();
 const axios = require('axios').default;
